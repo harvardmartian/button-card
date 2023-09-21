@@ -149,7 +149,76 @@ export const styles = css`
     -o-animation: rotating 2s linear infinite;
     animation: rotating 2s linear infinite;
   }
+  @-webkit-keyframes wobble /* Safari and Chrome */ {
+      0% {
+          -webkit-transform: translateZ(0);
+          transform: translateZ(0)
+      }
+      15% {
+          -webkit-transform: translate3d(-25%,0,0) rotate(-5deg);
+          transform: translate3d(-25%,0,0) rotate(-5deg)
+      }
+      30% {
+          -webkit-transform: translate3d(20%,0,0) rotate(3deg);
+          transform: translate3d(20%,0,0) rotate(3deg)
+      }
+      45% {
+          -webkit-transform: translate3d(-15%,0,0) rotate(-3deg);
+          transform: translate3d(-15%,0,0) rotate(-3deg)
+      }
+      60% {
+          -webkit-transform: translate3d(10%,0,0) rotate(2deg);
+          transform: translate3d(10%,0,0) rotate(2deg)
+      }
+      75% {
+          -webkit-transform: translate3d(-5%,0,0) rotate(-1deg);
+          transform: translate3d(-5%,0,0) rotate(-1deg)
+      }
+      to {
+          -webkit-transform: translateZ(0);
+          transform: translateZ(0)
+      }
+  }
 
+  @keyframes wobble {
+      0% {
+          -webkit-transform: translateZ(0);
+          transform: translateZ(0)
+      }
+      15% {
+          -webkit-transform: translate3d(-25%,0,0) rotate(-5deg);
+          transform: translate3d(-25%,0,0) rotate(-5deg)
+      }
+      30% {
+          -webkit-transform: translate3d(20%,0,0) rotate(3deg);
+          transform: translate3d(20%,0,0) rotate(3deg)
+      }
+      45% {
+          -webkit-transform: translate3d(-15%,0,0) rotate(-3deg);
+          transform: translate3d(-15%,0,0) rotate(-3deg)
+      }
+      60% {
+          -webkit-transform: translate3d(10%,0,0) rotate(2deg);
+          transform: translate3d(10%,0,0) rotate(2deg)
+      }
+      75% {
+          -webkit-transform: translate3d(-5%,0,0) rotate(-1deg);
+          transform: translate3d(-5%,0,0) rotate(-1deg)
+      }
+      to {
+          -webkit-transform: translateZ(0);
+          transform: translateZ(0)
+      }
+  }
+
+  [wobble] {
+    -webkit-animation: wobble 9s linear infinite;
+    -moz-animation: wobble 9s linear infinite;
+    -ms-animation: wobble 9s linear infinite;
+    -o-animation: wobble 9s linear infinite;
+    animation: wobble 9s linear infinite;
+  }
+  
   #container {
     display: grid;
     width: 100%;
