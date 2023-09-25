@@ -51,6 +51,15 @@ Animation Ready Lovelace Button card for your entities.
 
 ## Features
 
+- new animations: wobble
+rubberBand
+pulse
+flash
+bounce
+swing
+flip
+hinge
+- more coming soon!!!!
 - works with any toggleable entity
 - 6 available actions on **tap** and/or **hold** and/or **double click**: `none`, `toggle`, `more-info`, `navigate`, `url`, `assist` and `call-service`
 - state display (optional)
