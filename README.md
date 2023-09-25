@@ -4,8 +4,8 @@
 
 Animation Ready Lovelace Button card for your entities.
 
-![all](examples/all.gif)
-
+![all](examples/zoomInRight_example.gif)
+![css-var](examples/button_animation_example_box.gif)
 ## TOC <!-- omit in toc -->
 
 - [Features](#features)
@@ -456,7 +456,7 @@ If a light entity is assigned to the button, then:
 
 You can use them both in other parts of the button. When off, it will be set to `var(--paper-item-icon-color)`
 
-![css-var](examples/color-variable.gif)
+
 
 ```yaml
 styles:
