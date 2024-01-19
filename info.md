@@ -18,13 +18,13 @@
   - `card` : apply color settings to the card only
 - automatic font color if color_type is set to `card`
 - blank card and label card (for organization)
-- [blink](#blink) animation support
-- rotating animation support
+- [blink](#blink) & many more animations supported
+- rotating, rubberband, fade, slide, bounce, & more animations supported
 - confirmation popup for sensitive items (optional) or [locking mecanism](#lock)
 - haptic support for the [Beta IOS App](http://home-assistant.io/ios/beta)
 - support for [custom_updater](https://github.com/custom-components/custom_updater) and [hacs](https://github.com/custom-components/hacs)
 
 ### Example:
-<img src="https://github.com/custom-cards/button-card/raw/master/examples/all.gif?raw=true" width="509px">
+<img src="https://github.com/harvardmartian/button-card/blob/master/examples/zoomInRight_example.gif?raw=true" width="509px">
 
-### See the <a href="https://github.com/custom-cards/button-card/blob/master/README.md" target="_blank">Readme for installation and configuration</a>.
+### See the <a href="https://github.com/harvardmartian/button-card/blob/master/README.md" target="_blank">Readme for installation and configuration</a>.
